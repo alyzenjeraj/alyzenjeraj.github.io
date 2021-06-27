@@ -1,0 +1,173 @@
+body{
+    background-color: #1B2541;
+    color: white;
+}
+
+.light-mode{
+    background-color:white;
+    color: black;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    /* color: white; */
+  }
+
+
+
+a.button{
+    background-color:grey; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    right: 25px;
+    margin-top: 25px;
+    border-radius: 8px;
+    font-family: "Roboto" sans-serif;
+}
+
+.header{
+    font-family: "Roboto" sans-serif;
+    padding-top: 150px;
+    margin: 0;
+    padding-bottom: 0px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.subtitle{
+    font-family: "Roboto" sans-serif;
+    /* padding-top: 0px; */
+    margin: 0;
+    padding-bottom: 0px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.discordLogo{
+    margin-top: 50px;
+    opacity: 0.2;
+}
+
+
+.desk{
+    position:absolute;
+}
+
+.lamp{
+    position:relative;
+}
+
+
+.btn{
+    position: relative;
+    padding: 200px 50px;
+    left: -8%;
+    opacity: 0;
+}
+
+.deskArea{
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.titles{
+    font-family: "Roboto" sans-serif;
+    padding-top: 20px;
+    margin: 0;
+    padding-bottom: 0px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+.paragraph{
+    font-family: "Roboto" sans-serif;
+    margin: 0;
+    padding-top: 10px;
+    color: #D7D7D7;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.about {
+    width: 300px;
+    background-color: #2E4174;
+    padding: 50px;
+    margin: 20px;
+    margin: auto;
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  } 
+
+  .features {
+    width: 300px;
+    /* background-color: #1B2541; */
+    padding: 50px;
+    margin: 20px;
+    margin: auto;
+    width: 80%;
+  } 
+
+.leftImage{
+    margin-top: 80px;
+    border-radius: 15px;
+}
+
+.rightImage{
+    margin-top: 80px;
+    float: right;
+    border-radius: 15px;
+}
+
+/* Zoom In #2 */
+.hover02 figure img {
+	width: 600px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover02 figure:hover img {
+	width: 650px;
+}
+
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+.right{
+    float:right;
+    position:relative;
+    
+}
+
+.textFormatting{
+    color: white;
+}
